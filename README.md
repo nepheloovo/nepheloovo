@@ -81,7 +81,6 @@
 
 | 项目 | 简介 | 在线体验 |
 | --- | --- | --- |
-| [**td-ekko-landing**](https://github.com/nepheloovo/td-ekko-landing) | True Damage 艾克概念落地页：three.js 实时渲染 GLB 模型 + 自写 GLSL 背景着色器 + GSAP 滚动演出（非商用粉丝概念） | [🔗 访问](https://nepheloovo.github.io/td-ekko-landing/) |
 | [**pinterest-landing**](https://github.com/nepheloovo/pinterest-landing) | Pinterest 灵感落地页：暗色电影感设计、可交互灵感图墙与本地收藏画板 | [🔗 访问](https://nepheloovo.github.io/pinterest-landing/) |
 | [**attachment-style**](https://github.com/nepheloovo/attachment-style) | 依恋类型小测：十二道轻问的自我对照静态站（娱乐参考） | — |
 | [**nepheloovo.github.io**](https://github.com/nepheloovo/nepheloovo.github.io) | 我的个人网站，记录关于 AI、产品与创造的探索 | [🔗 访问](https://nepheloovo.github.io/) |
