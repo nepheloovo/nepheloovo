@@ -1,0 +1,107 @@
+<div align="center">
+
+# 你好，我是小渡 👋
+
+**AI 产品经理 · ENFP**
+
+把复杂的技术，变成简单的体验。从真实问题出发，让 AI 的可能成为日常。
+
+[![个人网站](https://img.shields.io/badge/个人网站-nepheloovo.github.io-163300?style=for-the-badge&logo=githubpages&logoColor=9FE870)](https://nepheloovo.github.io/)
+[![公众号](https://img.shields.io/badge/公众号-小渡ovo-07C160?style=for-the-badge&logo=wechat&logoColor=white)](#articles)
+
+</div>
+
+---
+
+## 🙋 关于我
+
+- 🧭 **AI 产品经理**：关心技术能做什么，更关心它能为人做什么
+- 🔍 **先把问题问对**：谁遇到了什么困难？今天怎么解决？这件事真的需要 AI 吗？
+- 🛠️ **从想法到实践**：自己动手把 PRD 做成能跑的产品 —— RAG 中台、多 Agent 诊断、Agent Skill、交互落地页
+- ✍️ **持续输出**：在公众号写 AI 热点解读与 AI 产品拆解
+- 🌱 保持好奇，慢慢生长
+
+## 🏷️ 标签
+
+`AI 产品经理` `ENFP` `RAG` `AI Agent` `Multi-Agent` `LLM 评测` `可观测性` `Prompt 工程` `AI 产品拆解` `用户体验` `从想法到实践` `内容创作`
+
+## 🧰 技能
+
+**AI 产品**
+
+- **RAG 知识库**：文档解析 / OCR → 切块 → 向量召回 → Rerank 精排 → 流式生成 + 引用溯源
+- **Agent 设计**：ReAct 留痕、Multi-Agent 专家—辩论—评审链路、Agent Skill 编写与部署
+- **质量闭环**：评测集设计、线上 Case 回流、Trace 可观测、Token 成本核算
+- **产品方法**：需求定义、PRD 与降级策略设计、竞品与 AI 产品拆解、用户体验打磨
+
+**动手实现**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_+_pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<br>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Vue](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![three.js](https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![WebGL](https://img.shields.io/badge/WebGL_/_GLSL-990000?style=flat-square&logo=webgl&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
+<br>
+![OpenAI API](https://img.shields.io/badge/OpenAI_兼容接口-412991?style=flat-square&logo=openai&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square)
+![通义千问](https://img.shields.io/badge/通义_qwen--vl-FF6A00?style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+
+## 🚀 项目
+
+### 🤖 AI 应用
+
+| 项目 | 简介 | 技术 |
+| --- | --- | --- |
+| [**rag_hub**](https://github.com/nepheloovo/rag_hub)<br>企业知识库中台 1.0 | 导入知识 → 构建知识库 → 在线对话全流程，对齐 FastGPT 体验。问答 / 智能客服 / 报告分析三类应用，向量召回 + Rerank + SSE 流式回答并带引用溯源；内置可观测中心（Agent ReAct 全量 Trace、Token 成本）与评测集（线上 Case 回流） | Python · FastAPI · LangChain · Vue 3 · pgvector · Celery · Docker |
+| [**douyin-video-diagnose**](https://github.com/nepheloovo/douyin-video-diagnose)<br>抖音视频诊断 | 抽取视频前 3 秒画面 + 文案，内容 / 视觉 / 增长三位专家 Agent 诊断 → 辩论 → 评审出报告；按 PRD 设计三级降级模式，失败时不编造结论 · [在线 API](https://douyin-video-diagnose.onrender.com) | Python · FastAPI · SSE · ffmpeg · Multi-Agent |
+
+### 🧩 Agent Skills
+
+| 项目 | 简介 |
+| --- | --- |
+| [**ai-product-teardown-skill**](https://github.com/nepheloovo/ai-product-teardown-skill) | AI 产品拆解 Skill：取证与分层拆解一款 AI 产品（尤其 Agent / Multi-Agent），输出飞书 / Markdown / HTML 报告，单列「待核实」清单 |
+| [**ai-hotspot-wechat-skill**](https://github.com/nepheloovo/ai-hotspot-wechat-skill) | AI 热点公众号写作 Skill：任务书 → 主张核对 → 1200–2500 字初稿，以「小渡」口吻写出极客活人感 |
+
+### 🎨 创意与前端
+
+| 项目 | 简介 | 在线体验 |
+| --- | --- | --- |
+| [**td-ekko-landing**](https://github.com/nepheloovo/td-ekko-landing) | True Damage 艾克概念落地页：three.js 实时渲染 GLB 模型 + 自写 GLSL 背景着色器 + GSAP 滚动演出（非商用粉丝概念） | [🔗 访问](https://nepheloovo.github.io/td-ekko-landing/) |
+| [**pinterest-landing**](https://github.com/nepheloovo/pinterest-landing) | Pinterest 灵感落地页：暗色电影感设计、可交互灵感图墙与本地收藏画板 | [🔗 访问](https://nepheloovo.github.io/pinterest-landing/) |
+| [**attachment-style**](https://github.com/nepheloovo/attachment-style) | 依恋类型小测：十二道轻问的自我对照静态站（娱乐参考） | — |
+| [**nepheloovo.github.io**](https://github.com/nepheloovo/nepheloovo.github.io) | 我的个人网站，记录关于 AI、产品与创造的探索 | [🔗 访问](https://nepheloovo.github.io/) |
+
+<a id="articles"></a>
+
+## ✍️ 文章
+
+公众号 **「小渡ovo」**：AI 热点解读、AI 产品思考，用懂行朋友聊天的口吻写给刚开始关注 AI 的人。微信搜索「小渡ovo」即可关注。
+
+| 日期 | 文章 | 一句话 |
+| --- | --- | --- |
+| 2026-10-29 | [FDE：企业 AI 的装修工](https://mp.weixin.qq.com/s/ina4Snx05fImKLAQpukz3A) | FDE 火了，但这可能不是 AI 行业的好消息 |
+| 2026-10-26 | [传统 PRD 到 AI PRD 到基因突变](https://mp.weixin.qq.com/s/JTnNsdvWjVnkz5e3UsQYoQ) | 从传统 PRD 到 AI PRD，产品文档正在发生什么变化 |
+| 2026-10-23 | [DeepSeek 把推理框架开出来了，能抄算子，抄不走机房](https://mp.weixin.qq.com/s/ydta9O89QAXyggxeBNjlhA) | DeepSeek 宣布开源 DeepInfer，开源之后真正的壁垒在哪 |
+
+---
+
+<div align="center">
+
+关于 AI、产品，或一个有趣的想法，期待有机会一起聊聊 ☕
+
+</div>
