@@ -17,7 +17,7 @@
 
 - 🧭 **AI 产品经理**：关心技术能做什么，更关心它能为人做什么
 - 🔍 **先把问题问对**：谁遇到了什么困难？今天怎么解决？这件事真的需要 AI 吗？
-- 🛠️ **从想法到实践**：自己动手把 PRD 做成能跑的产品 —— RAG 中台、多 Agent 诊断、Agent Skill、交互落地页
+- 🛠️ **从想法到实践**：自己动手把 PRD 做成能跑的产品 —— AI 应用中台、多 Agent 诊断、Agent Skill、交互落地页
 - ✍️ **持续输出**：在公众号写 AI 热点解读与 AI 产品拆解
 - 🌱 保持好奇，慢慢生长
 
@@ -67,7 +67,7 @@
 
 | 项目 | 简介 | 技术 |
 | --- | --- | --- |
-| [**rag_hub**](https://github.com/nepheloovo/rag_hub)<br>企业知识库中台 1.0 | 导入知识 → 构建知识库 → 在线对话全流程，对齐 FastGPT 体验。问答 / 智能客服 / 报告分析三类应用，向量召回 + Rerank + SSE 流式回答并带引用溯源；内置可观测中心（Agent ReAct 全量 Trace、Token 成本）与评测集（线上 Case 回流） | Python · FastAPI · LangChain · Vue 3 · pgvector · Celery · Docker |
+| [**知序 KnowOrder**](https://github.com/nepheloovo/zhishu-rag-platform)<br>AI 应用中台 | 把企业知识变成可上线、可评测、可追溯的 AI 应用：按文件自动切块的知识库，简易应用 / Agent / Chat Flow 三种编排，AI 设计评测集并作为发布门禁，每次运行留完整 Trace、可一键回流成评测 Case（基于 [chusimin/zhishu-rag-platform](https://github.com/chusimin/zhishu-rag-platform) 经授权二次开发） | Python · FastAPI · LangChain · React · pgvector · Celery |
 | [**douyin-video-diagnose**](https://github.com/nepheloovo/douyin-video-diagnose)<br>抖音视频诊断 | 抽取视频前 3 秒画面 + 文案，内容 / 视觉 / 增长三位专家 Agent 诊断 → 辩论 → 评审出报告；按 PRD 设计三级降级模式，失败时不编造结论 · [在线 API](https://douyin-video-diagnose.onrender.com) | Python · FastAPI · SSE · ffmpeg · Multi-Agent |
 
 ### 🧩 Agent Skills
