@@ -93,6 +93,8 @@
 
 | 日期 | 文章 | 一句话 |
 | --- | --- | --- |
+| 2026-11-03 | [GitHub 小白指南：认识这 8 个词，就能看懂一个项目](https://mp.weixin.qq.com/s/siRmfMioUSMiCNVn96RZmA) | 不会写代码，也该看懂 GitHub：一个项目页面怎么看、八个必要功能是干什么的 |
+| 2026-11-02 | [Spec：写给一个不会提问的同事](https://mp.weixin.qq.com/s/mkJX2PjDeKOJjKcClSZCsA) | Spec 火起来，是因为需求文档多了一个只会照做的读者 |
 | 2026-10-29 | [FDE：企业 AI 的装修工](https://mp.weixin.qq.com/s/ina4Snx05fImKLAQpukz3A) | FDE 火了，但这可能不是 AI 行业的好消息 |
 | 2026-10-26 | [传统 PRD 到 AI PRD 到基因突变](https://mp.weixin.qq.com/s/JTnNsdvWjVnkz5e3UsQYoQ) | 从传统 PRD 到 AI PRD，产品文档正在发生什么变化 |
 | 2026-10-23 | [DeepSeek 把推理框架开出来了，能抄算子，抄不走机房](https://mp.weixin.qq.com/s/ydta9O89QAXyggxeBNjlhA) | DeepSeek 宣布开源 DeepInfer，开源之后真正的壁垒在哪 |
