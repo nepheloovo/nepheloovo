@@ -20,8 +20,8 @@ def main():
     with urllib.request.urlopen(req, timeout=30) as r:
         articles = json.load(r)
     articles.sort(key=lambda a: a["date"], reverse=True)
-    rows = ["| 日期 | 文章 | 一句话 |", "| --- | --- | --- |"]
-    rows += [f"| {a['date']} | [{cell(a['title'])}]({a['url']}) | {cell(a.get('summary', ''))} |" for a in articles]
+    rows = ["| 文章 | 一句话 |", "| --- | --- |"]
+    rows += [f"| [{cell(a['title'])}]({a['url']}) | {cell(a.get('summary', ''))} |" for a in articles]
     doc = README.read_text(encoding="utf-8")
     doc, hit = re.subn(r"(<!-- articles:start -->\n).*?(\n<!-- articles:end -->)",
                        lambda m: m.group(1) + "\n".join(rows) + m.group(2), doc, flags=re.S)
