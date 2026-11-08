@@ -8,6 +8,7 @@
 
 [![个人网站](https://img.shields.io/badge/个人网站-nepheloovo.github.io-163300?style=for-the-badge&logo=githubpages&logoColor=9FE870)](https://nepheloovo.github.io/)
 [![公众号](https://img.shields.io/badge/公众号-小渡ovo-07C160?style=for-the-badge&logo=wechat&logoColor=white)](#articles)
+[![小红书](https://img.shields.io/badge/小红书-小渡-FF2442?style=for-the-badge&logo=xiaohongshu&logoColor=white)](https://www.xiaohongshu.com/user/profile/5c0106fb0000000008019e70)
 
 </div>
 
