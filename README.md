@@ -18,13 +18,13 @@
 
 - 🧭 **AI 产品经理**：关心技术能做什么，更关心它能为人做什么
 - 🔍 **先把问题问对**：谁遇到了什么困难？今天怎么解决？这件事真的需要 AI 吗？
-- 🛠️ **从想法到实践**：自己动手把 PRD 做成能跑的产品 —— AI 应用中台、多 Agent 诊断、Agent Skill、交互落地页
+- 🛠️ **从想法到实践**：自己动手把 PRD 做成能跑的产品 —— AI 游戏工作室、AIGC 内容平台、AI 应用中台、多 Agent 诊断、Agent Skill
 - ✍️ **持续输出**：在公众号写 AI 热点解读与 AI 产品拆解
 - 🌱 保持好奇，慢慢生长
 
 ## 🏷️ 标签
 
-`AI 产品经理` `ENFP` `RAG` `AI Agent` `Multi-Agent` `LLM 评测` `可观测性` `Prompt 工程` `AI 产品拆解` `用户体验` `从想法到实践` `内容创作`
+`AI 产品经理` `ENFP` `RAG` `AI Agent` `Multi-Agent` `LLM 评测` `可观测性` `Prompt 工程` `AIGC` `AI 产品拆解` `用户体验` `从想法到实践` `内容创作`
 
 ## 🧰 技能
 
@@ -50,20 +50,25 @@
 
 | 项目 | 简介 | 技术 |
 | --- | --- | --- |
-| [**知序 KnowOrder**](https://github.com/nepheloovo/zhishu-rag-platform)<br>AI 应用中台 | 把企业知识变成可上线、可评测、可追溯的 AI 应用：按文件自动切块的知识库，简易应用 / Agent / Chat Flow 三种编排，AI 设计评测集并作为发布门禁，每次运行留完整 Trace、可一键回流成评测 Case（基于 [chusimin/zhishu-rag-platform](https://github.com/chusimin/zhishu-rag-platform) 经授权二次开发） | Python · FastAPI · LangChain · React · pgvector · Celery |
+| [**Kapy.ai**](https://github.com/nepheloovo/Kapy.ai)<br>一句话做出能玩的游戏 | 本地桌面游戏工作室：策划拆任务、程序写代码、质检逐条核查，再打开构建版本真的试玩打分，合格才交付；产出 Web 或 Godot 4 工程，像素卡皮巴拉 Kapy 全程陪伴 · [介绍页](https://nepheloovo.github.io/Kapy.ai/) | Electron · React · TypeScript · Codex · Godot 4 |
+| [**万象工场**](https://github.com/nepheloovo/wanxiang-studio)<br>AIGC 内容生产平台 | 一句话需求拆成剧本 → 角色与场景 → 分镜 → 画面 → 视频 → 成片，每一步可查看、修改、单独重生成；一个场景包就是一个行业产品，内置短片 / 电商广告 / 漫剧 / 旅游宣传片 / 商品海报 · [介绍页](https://nepheloovo.github.io/wanxiang-studio/) | Python · Node.js · Multi-Agent |
+| [**Agent 工坊**](https://github.com/nepheloovo/agent-workshop)<br>Agent 产品推导引擎 | 一句话点子 → 可确认的 PRD 与架构方案 → 交给你的 AI 编程工具写骨架 → 对照 PRD 验收 → 按新需求迭代；命令行与本地网页两种用法 | Python |
+| [**知序 KnowOrder**](https://github.com/nepheloovo/knoworder)<br>AI 应用中台 | 把企业知识变成可上线、可评测、可追溯的 AI 应用：按文件自动切块的知识库，简易应用 / Agent / Chat Flow 三种编排，AI 设计评测集并作为发布门禁，每次运行留完整 Trace、可一键回流成评测 Case（基于 [chusimin/zhishu-rag-platform](https://github.com/chusimin/zhishu-rag-platform) 经授权二次开发） | Python · FastAPI · LangChain · React · pgvector · Celery |
 | [**douyin-video-diagnose**](https://github.com/nepheloovo/douyin-video-diagnose)<br>抖音视频诊断 | 抽取视频前 3 秒画面 + 文案，内容 / 视觉 / 增长三位专家 Agent 诊断 → 辩论 → 评审出报告；按 PRD 设计三级降级模式，失败时不编造结论 · [在线 API](https://douyin-video-diagnose.onrender.com) | Python · FastAPI · SSE · ffmpeg · Multi-Agent |
 
-### 🧩 Agent Skills
+### 🧩 Skills 与工具包
 
 | 项目 | 简介 |
 | --- | --- |
+| [**idea-to-launch-kit**](https://github.com/nepheloovo/idea-to-launch-kit) | AI 产品从想法到上线开发工具包：一张规则卡 + 三份技术手册，让编码 AI 当技术合伙人，按阶段写代码、做界面、部署上线，每个阶段有闸门和证据包，非技术产品经理也能核对 |
 | [**ai-product-teardown-skill**](https://github.com/nepheloovo/ai-product-teardown-skill) | AI 产品拆解 Skill：取证与分层拆解一款 AI 产品（尤其 Agent / Multi-Agent），输出飞书 / Markdown / HTML 报告，单列「待核实」清单 |
 | [**ai-hotspot-wechat-skill**](https://github.com/nepheloovo/ai-hotspot-wechat-skill) | AI 热点公众号写作 Skill：任务书 → 主张核对 → 1200–2500 字初稿，以「小渡」口吻写出极客活人感 |
 
-### 🎨 创意与前端
+### 🎨 网页作品
 
 | 项目 | 简介 | 在线体验 |
 | --- | --- | --- |
+| [**ai-pm-interview-bank**](https://github.com/nepheloovo/ai-pm-interview-bank) | AI 产品经理面试题库：175 道高频题，标注被问频次、考察点与答题框架，可按维度和公司查 | [🔗 访问](https://nepheloovo.github.io/ai-pm-interview-bank/) |
 | [**pinterest-landing**](https://github.com/nepheloovo/pinterest-landing) | Pinterest 灵感落地页：暗色电影感设计、可交互灵感图墙与本地收藏画板 | [🔗 访问](https://nepheloovo.github.io/pinterest-landing/) |
 | [**attachment-style**](https://github.com/nepheloovo/attachment-style) | 依恋类型小测：十二道轻问的自我对照静态站（娱乐参考） | — |
 | [**nepheloovo.github.io**](https://github.com/nepheloovo/nepheloovo.github.io) | 我的个人网站，记录关于 AI、产品与创造的探索 | [🔗 访问](https://nepheloovo.github.io/) |
